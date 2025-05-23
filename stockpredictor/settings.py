@@ -51,6 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'stockpredictor.urls'
+LOGIN_URL = 'accounts/login/'
+LOGIN_REDIRECT_URL = '/'
 
 TEMPLATES = [
     {

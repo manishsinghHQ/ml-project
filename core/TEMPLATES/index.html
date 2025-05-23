@@ -101,8 +101,9 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
     <a class="navbar-brand" href="#">StockWizard</a>
     <div class="ms-auto">
-      <a class="btn btn-outline-light me-2" href="/accounts/login/">Login</a>
-      <a class="btn btn-outline-success" href="/accounts/Signup/">Sign Up</a>
+        <a class="btn btn-outline-light me-2" href="{% url 'login' %}">Login</a>
+        <a class="btn btn-outline-success" href="{% url 'signup_view' %}">Sign Up</a>
+      
     </div>
   </nav>
 
